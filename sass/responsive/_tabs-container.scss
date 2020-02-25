@@ -1,0 +1,133 @@
+@media screen and (max-width: 1024px) {
+  .tabs-container {
+    .wrapper.tabs {
+      max-width: 1024px;
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+    .tabs {
+      flex-direction: column;
+      align-items: center;
+
+      .left-box {
+        margin-right: 0;
+      }
+      .right-box {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+
+        .tabs-nav {
+          text-align: center;
+          width: 630px;
+          margin: 0 auto;
+        }
+        .tabs__content {
+          padding-left: 15px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .tabs-container {
+    padding-top: 65px;
+    .wrapper.tabs {
+      max-width: 690px;
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+    .tabs {
+      flex-direction: column;
+      align-items: center;
+
+      .left-box {
+        margin-right: 0;
+      }
+      .right-box {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+
+        .tabs-nav {
+          text-align: center;
+          width: 630px;
+          margin: 0 auto;
+        }
+        .tabs__content {
+          padding-left: 15px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .tabs-container {
+    .wrapper.tabs {
+
+    }
+    .tabs {
+      .left-box {
+        img {
+          width: 325px;
+        }
+      }
+      .right-box {
+        .tabs-nav {
+          width: 100%;
+
+          .tabs-nav__item {
+            padding: 25px;
+          }
+        }
+        .tabs__content {
+          .tabs-content {
+            .top-box {
+              .top-box-text {
+                width: 100%;
+              }
+            }
+            .bottom-box {}
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .tabs-container {
+    .wrapper.tabs {
+
+    }
+    .tabs {
+      .left-box {
+        img {
+          width: 325px;
+        }
+      }
+      .right-box {
+        .tabs-nav {
+          width: 100%;
+
+          .tabs-nav__item {
+            padding: 15px;
+          }
+        }
+        .tabs__content {
+          .tabs-content {
+            .top-box {
+              .top-box-text {
+                width: 100%;
+              }
+            }
+            .bottom-box {}
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+// desktop
+
+@import 'reset';
+@import 'variables';
+@import 'fonts';
+@import 'main-wrap';
+@import 'header';
+@import 'about';
+@import 'tabs-container';
+@import 'gallery';
+@import 'modal';
+@import 'mobile-modal';
+
+// responsive
+
+@import 'responsive/header';
+@import 'responsive/about';
+@import 'responsive/tabs-container';
+@import 'responsive/gallery';

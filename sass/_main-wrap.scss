@@ -1,0 +1,10 @@
+body {
+  max-width: $grid-width-primary;
+  font-family: $font-primary;
+  position: relative;
+
+  .wrapper {
+    max-width: $grid-width-secondary;
+    margin: 0 auto;
+  }
+}

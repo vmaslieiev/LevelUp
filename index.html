@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LevelUp Page</title>
+  <link rel="shortcut icon" type="image/png" href="./img/mobile-logo_photo-resizer.ru.png">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+  <header>
+    <div class="wrapper header">
+      <div class="logo">
+        <a href="#"><img src="./img/logo.png" alt="logo"></a>
+      </div>
+      <div class="mobile-number">
+        <img src="./img/mobile-phone-icon.png" alt="icon">
+        <a href="tel: +380663330523">(066) 333 05 23</a>
+      </div>
+      <nav class="nav">
+        <ul class='nav-links'>
+          <li><a href="#">IT-обучение</a></li>
+          <li class="active"><a href="#">На каникулах</a>
+            <ul class="submenu">
+              <li><i></i><a href="#">Пункт меню #1</a></li>
+              <li><i></i><a href="#">Пункт #2</a></li>
+              <li><i></i><a href="#">Подпункт #3</a></li>
+              <li><i></i><a href="#">Меню #4</a></li>
+            </ul>
+          </li>
+          <li><a href="#">События</a></li>
+          <li><a href="#">Контакты</a></li>
+          <li><a href="#">Вакансии</a></li>
+        </ul>
+        <div class="burger-main-wrap js-burger">
+          <div class="burger-wrap">
+            <div class="burger">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div class="burger-fade">
+    <a class="popup-burger-close" href="#">Закрыть</a>
+    <div class="popup-burger">
+        <ul class="content">
+          <li>
+            <a href="#">
+              <p>IT-обучение</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>На каникулах</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>События</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>Контакты</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>Вакансии</p>
+            </a>
+          </li>
+        </ul>
+    </div>		
+  </div>
+  <div class="about-container">
+    <div class="wrapper about">
+      <div class="left-box">
+        <div class="title">
+          <p>IT-школа <span>СМАРТ</span></p>
+        </div>
+        <div class="title-description">
+          <p>- это внешкольное образование нового поколения, для развития и самореализации детей через IT.</p>
+        </div>
+        <div class="text">
+          <p>С помощью современных технологий мы развиваем у
+            школьников знания о бизнесе, навыки общения и управления
+            собой. </p>
+        </div>
+        <button class="btn">Записаться</button>
+      </div>
+      <div class="right-box">
+        <img class="about-img" src="./img/about-image.png" alt="image">
+      </div>
+    </div>
+  </div>
+  <div class="popup-fade">
+    <div class="popup">
+      <div class="head">
+        <div class="left-box">
+          <img src="./img/modal_icon_title.png" alt="icon">
+          <p>Записаться сейчас</p>
+        </div>
+        <a class="popup-close" href="#">Закрыть</a>
+      </div>
+      <form action="" id="form">
+        <input type="text" name="name" placeholder="Ваше имя*" required>
+        <input type="text" name="email" placeholder="Ваш e-mail*" required>
+        <input class="input-number" type="text" name="number" placeholder="Номер телефона*" required>
+        <p>* Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ab quos impedit architecto ipsam amet.</p>
+      </form>
+      <div class="modal-btn"><button class="form-btn" form="form" type="submit">Записаться</button></div>
+    </div>		
+  </div>
+  <div class="tabs-container">
+    <div class="wrapper tabs">
+      <div class="left-box">
+        <img src="./img/tabs-image.png" alt="image">
+      </div>
+      <div class="right-box">
+        <div class="tabs__nav tabs-nav">
+          <div class="tabs-nav__item is-active" data-tab-name="tab-1">
+            <p>Таб #1</p>
+          </div>
+          <div class="tabs-nav__item" data-tab-name="tab-2">
+            <p>Таб #2</p>
+          </div>
+          <div class="tabs-nav__item" data-tab-name="tab-3">
+            <p>Таб #3</p>
+          </div>
+        </div>
+        <div class="tabs__content">
+          <div class="tab is-active tab-1">
+            <div class="tab1-content tabs-content">
+              <div class="top-box">
+                <div class="top-box-title">
+                  <p>Здесь заголовок 1</p>
+                </div>
+                <div class="top-box-text">
+                  <div class="green-line"></div>
+                  <div class="text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Totam esse similique, unde earum repellendus
+                      reprehenderit!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="bottom-box">
+                <ul class="tab-list">
+                  <div class="list-title">
+                    <p>Список:</p>
+                  </div>
+                  <li>
+                    <div class="check">
+                      <div class="check-sign sign-1"></div>
+                      <div class="check-sign sign-2"></div>
+                    </div>
+                    <p>Lorem ipsum #1</p>
+                  </li>
+                  <li>
+                    <div class="check">
+                      <div class="check-sign sign-1"></div>
+                      <div class="check-sign sign-2"></div>
+                    </div>
+                    <p>Lorem ipsum #2</p>
+                  </li>
+                  <li>
+                    <div class="check">
+                      <div class="check-sign sign-1"></div>
+                      <div class="check-sign sign-2"></div>
+                    </div>
+                    <p>Lorem ipsum #3</p>
+                  </li>
+                  <li>
+                    <div class="check">
+                      <div class="check-sign sign-1"></div>
+                      <div class="check-sign sign-2"></div>
+                    </div>
+                    <p>Lorem ipsum #4</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="tab tab-2">
+            <div class="tab2-content tabs-content">
+              <div class="top-box">
+                <div class="top-box-title">
+                  <p>Здесь заголовок 2</p>
+                </div>
+                <div class="top-box-text">
+                  <div class="green-line"></div>
+                  <div class="text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Totam esse similique, unde earum repellendus
+                      reprehenderit!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="bottom-box">
+                <ul class="tab-list">
+                  <div class="list-title">
+                    <p>Список:</p>
+                  </div>
+                  <li>
+                    <div class="check">
+                      <div class="check-sign sign-1"></div>
+                      <div class="check-sign sign-2"></div>
+                    </div>
+                    <p>Lorem ipsum #1</p>
+                  </li>
+                  <li>
+                    <div class="check">
+                      <div class="check-sign sign-1"></div>
+                      <div class="check-sign sign-2"></div>
+                    </div>
+                    <p>Lorem ipsum #2</p>
+                  </li>
+                  <li>
+                    <div class="check">
+                      <div class="check-sign sign-1"></div>
+                      <div class="check-sign sign-2"></div>
+                    </div>
+                    <p>Lorem ipsum #3</p>
+                  </li>
+                  <li>
+                    <div class="check">
+                      <div class="check-sign sign-1"></div>
+                      <div class="check-sign sign-2"></div>
+                    </div>
+                    <p>Lorem ipsum #4</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="tab tab-3">
+            <div class="tab3-content tabs-content">
+              <div class="top-box">
+                <div class="top-box-title">
+                  <p>Здесь заголовок 3</p>
+                </div>
+                <div class="top-box-text">
+                  <div class="green-line"></div>
+                  <div class="text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Totam esse similique, unde earum repellendus
+                      reprehenderit!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="bottom-box">
+                <ul class="tab-list">
+                  <div class="list-title">
+                    <p>Список:</p>
+                  </div>
+                  <li>
+                    <div class="check">
+                      <div class="check-sign sign-1"></div>
+                      <div class="check-sign sign-2"></div>
+                    </div>
+                    <p>Lorem ipsum #1</p>
+                  </li>
+                  <li>
+                    <div class="check">
+                      <div class="check-sign sign-1"></div>
+                      <div class="check-sign sign-2"></div>
+                    </div>
+                    <p>Lorem ipsum #2</p>
+                  </li>
+                  <li>
+                    <div class="check">
+                      <div class="check-sign sign-1"></div>
+                      <div class="check-sign sign-2"></div>
+                    </div>
+                    <p>Lorem ipsum #3</p>
+                  </li>
+                  <li>
+                    <div class="check">
+                      <div class="check-sign sign-1"></div>
+                      <div class="check-sign sign-2"></div>
+                    </div>
+                    <p>Lorem ipsum #4</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="gallery-container">
+    <div class="wrapper gallery">
+      <div><img src="./img/gallery-img1.png" alt="img"></div>
+      <div><img src="./img/gallery-img2.png" alt="img"></div>
+      <div><img src="./img/gallery-img3.png" alt="img"></div>
+      <div><img src="./img/gallery-img4.png" alt="img"></div>
+      <div><img src="./img/gallery-img5.png" alt="img"></div>
+      <div><img src="./img/gallery-img6.png" alt="img"></div>
+      <div><img src="./img/gallery-img7.png" alt="img"></div>
+      <div><img src="./img/gallery-img8.png" alt="img"></div>
+      <div><img src="./img/gallery-img9.png" alt="img"></div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="./app/all.js"></script>
+</body>
+
+</html>
